@@ -1,0 +1,253 @@
+.welcome{
+	width: 100%;
+	height: 100%;
+	background-image: url(img/blanco.jpg);
+	background-size: cover;
+	background-position: 40%;
+	position: relative;
+	background-attachment: fixed;
+	position: relative;
+}
+.overlay-welcome{
+	width: 100%;
+	height: 100%;
+	top:0;
+	position: absolute;
+	background-color: rgba(255, 252, 252, 0.5);
+}
+.overlay-welcome .titulo{
+	position: absolute;
+	top: 25%;
+	left: 10%;
+	font-size: 2em;
+	text-transform: uppercase;
+	text-align: right;
+}
+.parrafo{
+	float: right;
+	width: 35%;
+	position: absolute;
+	top: 25%;
+	right: 10%;
+	line-height: 1.5;
+}
+.premios-welcome{
+	width: 100%;
+	height: 100%;
+}
+.welcome .premios-welcome ul{
+	bottom: 30%;
+	right: 20%;
+	position: absolute;
+	width: 100%;
+	bottom: 20%;
+	left: 55%;
+	list-style-type: none;
+}
+.welcome .premios-welcome ul li{
+	width:15%;
+	height: 15%;
+	float: left;
+	padding: 2%;
+}
+.premios-welcome ul li img{
+	width: 100%;
+}
+.parrafo h4{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.clases{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	padding: 7%;
+	background-color: #222222;
+}
+.clases ul{
+	width: 100%;
+	height: 100%;
+	list-style-type: none;
+}
+.clases ul li{
+	width: 33.33%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+.clases ul li div{
+	width: 100%;
+	height: 50%;
+	background-size: cover;
+}
+.clases ul li .informe{
+	height: 50%
+}
+.clases .informe h2{
+	color: white;
+	text-transform: uppercase;
+	padding-top: 10%;
+}
+.clases h3{
+	color: white;
+}
+.clases p{
+	color: white;
+	padding: 0 6% 0%;
+	line-height: 1.5;
+}
+.clases h4{
+	padding:6% 0 3%;
+	color:white;
+}
+.clases .informe .turquesa,
+.clases .informe .verde,
+.clases .informe .rojo{
+	width: 100%;
+	height: 50%;
+	padding: 8% 25% 0;
+}
+.turquesa div,
+.verde div,
+.rojo div{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	font-weight: bold;
+	padding-top: 5%;
+}
+.turquesa div p,
+.verde div p,
+.rojo div p{
+	text-align: center;
+}
+
+.clases .informe .turquesa div{
+	background-color: #1aaa8f;
+}
+.verde div{
+	background-color: #d4e06d;
+}
+.rojo div{
+	background-color: #e95151;
+}
+.us{
+	width: 100%;
+	min-height: 100%;
+	padding: 5%;
+}
+.us .img{
+	width: 40%;
+	height: 60%;
+	background-color: blue;
+	font-size: 0;
+	float: left;
+	margin-top: 4%;
+}
+.img img{
+	width: 100%;
+	height: 100%;
+}
+.texto{
+	width:60%;
+	height: 40%;
+	padding-left: 5%; 
+	float: left;
+	font-size: 1.2em;
+	line-height: 1.5;
+}
+.texto h1{
+	text-align: center;
+	line-height: 4;
+}
+.premios{
+	width: 100%;
+	height: 20%;
+	text-align: right;
+	margin-top: 10%;
+}
+.premios img{
+	width: 25%;
+	height: 100%;
+}
+.clearfix:before, .clearfix:after{
+  content: " ";
+  display: tab
+}
+.clearfix:after {
+  clear: both;
+}
+#container-equipo{
+	width: 100%;
+	height: 100%;
+	background-color:#ECECEC;
+	padding: 7%;
+}
+.equipo{
+	width: 100%;
+	height: 100%;
+}
+.texto-equipo{
+	text-align: center;
+	line-height: 1.5;
+	height: 20%;
+
+}
+.texto-equipo h2{
+	color: ;
+}
+.texto-equipo p{
+	padding: 2% 20% 5%;
+
+}
+.grid-equipo{
+	width: 100%;
+	height: 80%;
+	padding: 0 5% 0;
+}
+.grid-equipo ul{
+	list-style-type: none;
+	height: 100%;
+	padding-top: 5%;
+}
+.grid-equipo ul li{
+	width: 25%;
+	height: 57%;
+	float: left;
+	padding:2% 3% 0%;
+	text-align: center;
+	line-height: 1.5;
+}
+.grid-equipo ul li div{
+	width: 100%;
+	height: 100%;
+	background-position: center center; 
+	background-size:100%
+}
+.grid-equipo ul li h3{
+	padding: 10% 0 1%;
+	color: ;
+}
+.grid-equipo ul li p{
+	padding-top: 5%;}
+.banner{
+	width: 100%;
+	height: 60%;
+	background-image: url(img/desierto.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	background-attachment: fixed;
+}
+.banner div{
+	position: absolute;
+	right: 10%;
+	left: 60%;
+	top: 30%;
+	font-size: 4em;
+}
+.banner div p{
+	color: white;
+	font-weight: bold;
+}
